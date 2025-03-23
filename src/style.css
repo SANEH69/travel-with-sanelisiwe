@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     padding: 170px;
-    margin: 5px 50px;
+    margin: 0px 50px;
     color: antiquewhite;
 }
 .hero h1 {
@@ -26,7 +26,7 @@ h3, h2 {
 }
 .hero a {
     background-color: antiquewhite;
-    padding: 15px 30px;
+    padding: 20px 30px;
     border: none;
     color: #01446D;
     font-weight: bolder;
@@ -41,7 +41,7 @@ h3, h2 {
     grid-template-columns: repeat(2, 1fr);
     padding: 170px;
     margin: 0px 50px;
-    background-color: #AEAFAB;
+    background-color: #99B0C1;
     grid-gap: 20px;
 }
 .why-durban img {
@@ -50,17 +50,26 @@ h3, h2 {
 .cafes {
     padding: 170px;
     margin: 0px 50px;
-    background-color: burlywood;
+    background-color: #A5917C;
     text-align: center;
 }
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    grid-gap: 15px;
+    grid-gap: 25px;
 }
 .durban-cafe {
     background-color: antiquewhite;
-    padding: 5px;
+    padding: 15px;
+}
+.durban-cafe a {
+    background-color: #01446D;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-decoration: none;
 }
 footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/best-city.jpg");
@@ -91,15 +100,21 @@ footer {
     .hero h1 {
         font-size: 48px;
     }
-    .why-durban, footer {
+    .why-durban, footer, .cards, .durban-cafe {
         width: 100%;
         overflow: hidden;
         grid: none;
         margin: 0px;
     }
+    .durban-cafe a {
+        width: 50%;
+    }
 }
 @media (max-width: 1300px) {
-    .why-durban, .about {
+    .why-durban, .about, .cards, .durban-cafe {
         grid: none;
+    }
+    .durban-cafe img {
+        display: none;
     }
 }
