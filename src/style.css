@@ -1,5 +1,5 @@
 body {
-    background-color: #06916C;
+    background-color: #01446D;
 }
 .hero {
     background-image: linear-gradient(rgba(0, 0 , 0, 0.5), rgba(0, 0 , 0, 0.5)),  url("/images/durban.jpg");
@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     padding: 170px;
-    margin: 5px 20px;
+    margin: 5px 50px;
     color: antiquewhite;
 }
 .hero h1 {
@@ -23,6 +23,16 @@ body {
 .hero p {
     font-size: 20px;
     margin-top: 5px;
+}
+.hero a {
+    background-color: antiquewhite;
+    padding: 15px 30px;
+    border: none;
+    color: #01446D;
+    font-weight: bolder;
+}
+.hero a:hover {
+    cursor: pointer;
 }
 @media (max-width: 900px) {
     .hero {
