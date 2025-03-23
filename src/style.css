@@ -92,7 +92,7 @@ footer {
     color: #01446D;
 }
 @media (max-width: 900px) {
-    .hero {
+    .hero, .durban-cafe {
         width: 100%;
         overflow: hidden;
         margin: 0px;
@@ -100,7 +100,7 @@ footer {
     .hero h1 {
         font-size: 48px;
     }
-    .why-durban, footer, .cards, .durban-cafe {
+    .why-durban, footer, .cafes {
         width: 100%;
         overflow: hidden;
         grid: none;
@@ -109,12 +109,12 @@ footer {
     .durban-cafe a {
         width: 50%;
     }
-}
-@media (max-width: 1300px) {
-    .why-durban, .about, .cards, .durban-cafe {
-        grid: none;
-    }
     .durban-cafe img {
         display: none;
+    }
+}
+@media (max-width: 1300px) {
+    .why-durban, .about, .cards {
+        grid: none;
     }
 }
