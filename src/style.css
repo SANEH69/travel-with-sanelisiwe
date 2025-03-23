@@ -40,6 +40,10 @@ body {
     padding: 170px;
     margin: 0px 50px;
     background-color: #AEAFAB;
+    grid-gap: 20px;
+}
+.why-durban img {
+    width: 100%;
 }
 @media (max-width: 900px) {
     .hero {
