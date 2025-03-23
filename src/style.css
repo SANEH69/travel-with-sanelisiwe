@@ -45,6 +45,26 @@ body {
 .why-durban img {
     width: 100%;
 }
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/best-city.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 170px;
+    margin: 0px 50px;
+    color: antiquewhite;
+}
+.about {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 20px;
+}
+.about a {
+    color: antiquewhite;
+}
+.about a:hover {
+    color: #01446D;
+}
 @media (max-width: 900px) {
     .hero {
         width: 100%;
@@ -54,7 +74,7 @@ body {
     .hero h1 {
         font-size: 48px;
     }
-    .why-durban {
+    .why-durban, footer {
         width: 100%;
         overflow: hidden;
         grid: none;
@@ -62,7 +82,7 @@ body {
     }
 }
 @media (max-width: 1300px) {
-    .why-durban {
+    .why-durban, .about {
         grid: none;
     }
 }
