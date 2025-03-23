@@ -107,6 +107,10 @@ footer {
     color: #01446D;
 }
 @media (max-width: 900px) {
+    body .container {
+        width: 100%;
+        overflow-x: hidden;
+    }
     .hero, .durban-cafe, .map, .instagram-media {
         width: 100%;
         overflow: hidden;
