@@ -107,26 +107,19 @@ footer {
     color: #01446D;
 }
 @media (max-width: 900px) {
-    body .container {
-        width: 100%;
-        overflow-x: hidden;
-    }
-    .hero, .durban-cafe, .map, .instagram-media {
-        width: 100%;
+    .hero, .durban-cafe, .map {
+        max-width: 100%;
         overflow: hidden;
         margin: 0px;
     }
     .hero h1 {
         font-size: 48px;
     }
-    .why-durban, footer, .cafes, .embed, .gallery {
+    .why-durban, footer, .cafes, .embed, .cards {
         width: 100%;
         overflow: hidden;
         grid: none;
         margin: 0px;
-    }
-    .durban-cafe a {
-        width: 50%;
     }
     .durban-cafe img {
         display: none;
