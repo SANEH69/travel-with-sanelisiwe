@@ -48,9 +48,9 @@ h3, h2 {
     width: 100%;
 }
 .cafes {
-    padding: 170px;
+    padding: 80px 170px;
     margin: 0px 50px;
-    background-color: #A5917C;
+    background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
     text-align: center;
 }
 .cards {
@@ -59,7 +59,7 @@ h3, h2 {
     grid-gap: 25px;
 }
 .durban-cafe {
-    background-color: antiquewhite;
+    background-color: white;
     padding: 15px;
 }
 .durban-cafe a {
