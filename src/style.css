@@ -34,6 +34,13 @@ body {
 .hero a:hover {
     cursor: pointer;
 }
+.why-durban {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 170px;
+    margin: 0px 50px;
+    background-color: #AEAFAB;
+}
 @media (max-width: 900px) {
     .hero {
         width: 100%;
@@ -42,5 +49,16 @@ body {
     }
     .hero h1 {
         font-size: 48px;
+    }
+    .why-durban {
+        width: 100%;
+        overflow: hidden;
+        grid: none;
+        margin: 0px;
+    }
+}
+@media (max-width: 1300px) {
+    .why-durban {
+        grid: none;
     }
 }
