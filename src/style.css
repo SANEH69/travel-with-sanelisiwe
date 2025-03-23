@@ -79,14 +79,21 @@ h3, h2 {
     width: 100%;
     height: 100%;
 }
+.gallery {
+    background-color: #99B0C1;
+    padding: 80px 170px;
+    margin: 0px 50px;
+    text-align: center;
+}
 footer {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/best-city.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/best-city.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 100px 170px;
     margin: 0px 50px;
     color: antiquewhite;
+    filter:  contrast(162%) hue-rotate(295deg);
 }
 .about {
     display: grid;
@@ -100,7 +107,7 @@ footer {
     color: #01446D;
 }
 @media (max-width: 900px) {
-    .hero, .durban-cafe, .map {
+    .hero, .durban-cafe, .map, .instagram-media {
         width: 100%;
         overflow: hidden;
         margin: 0px;
@@ -108,7 +115,7 @@ footer {
     .hero h1 {
         font-size: 48px;
     }
-    .why-durban, footer, .cafes, .embed {
+    .why-durban, footer, .cafes, .embed, .gallery {
         width: 100%;
         overflow: hidden;
         grid: none;
