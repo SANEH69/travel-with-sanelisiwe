@@ -1,0 +1,36 @@
+body {
+    background-color: #06916C;
+}
+.hero {
+    background-image: linear-gradient(rgba(0, 0 , 0, 0.5), rgba(0, 0 , 0, 0.5)),  url("/images/durban.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 170px;
+    margin: 5px 20px;
+    color: antiquewhite;
+}
+.hero h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 96px;
+}
+.hero h3, h2 {
+    font-size: 24px;
+}
+.hero p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+@media (max-width: 900px) {
+    .hero {
+        width: 100%;
+        overflow: hidden;
+        margin: 0px;
+    }
+    .hero h1 {
+        font-size: 48px;
+    }
+}
