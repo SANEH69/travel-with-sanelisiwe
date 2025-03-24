@@ -48,6 +48,14 @@ h3, h2 {
 .why-durban img {
     width: 100%;
 }
+.photos {
+    padding: 80px 170px;
+    margin: 0px 50px;
+    background-color: #99B0C1;
+}
+.photos h1, h5 {
+    text-align: center;
+}
 .cafes {
     padding: 80px 170px;
     margin: 0px 50px;
@@ -104,6 +112,11 @@ footer {
 .about a:hover {
     color: #01446D;
 }
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
 @media (max-width: 900px) {
     .container {
         width: 100%;
@@ -116,7 +129,7 @@ footer {
     .hero h1 {
         font-size: 48px;
     }
-    .why-durban, footer, .cafes, .embed, .cards {
+    .why-durban, footer, .cafes, .embed, .cards, .photos {
         width: 100%;
         overflow: hidden;
         grid: none;
@@ -131,15 +144,27 @@ footer {
         display: block;
         margin: auto 0px;
     }
-    .instagram-media {
-        display: block;
+    .content {
         width: 100%;
-        margin: auto 0px;
+        margin: 0 auto;
         overflow: hidden;
+        position: relative;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        box-sizing: content-box;
+    }
+    .content .instagram-media {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        box-sizing: content-box;
     }
 }
 @media (max-width: 1300px) {
-    .why-durban, .about, .cards {
+    .why-durban, .about, .cards, .content {
         grid: none;
     }
 }
