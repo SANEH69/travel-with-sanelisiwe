@@ -118,53 +118,16 @@ footer {
     grid-gap: 20px;
 }
 @media (max-width: 900px) {
-    .container {
+    .container, .hero, .cafes, .durban-cafe, .photos, .why-durban , footer{
         width: 100%;
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
     }
-    .hero, .durban-cafe, .map {
-        width: 100%;
-        overflow: hidden;
-        margin: 0px;
+    .why-durban, .about, .cards, .content {
+        grid: none;
     }
     .hero h1 {
         font-size: 48px;
-    }
-    .why-durban, footer, .cafes, .embed, .cards, .photos {
-        width: 100%;
-        overflow: hidden;
-        grid: none;
-        margin: 0px;
-    }
-    .durban-cafe img {
-        display: none;
-    }
-    .map {
-        width: 100%;
-        height: 100%;
-        display: block;
-        margin: auto 0px;
-    }
-    .content {
-        width: 100%;
-        margin: 0 auto;
-        overflow: hidden;
-        position: relative;
-        padding-top: 56.25%; /* 16:9 Aspect Ratio */
-        box-sizing: content-box;
-    }
-    .content .instagram-media {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-        box-sizing: content-box;
-    }
-}
-@media (max-width: 1300px) {
-    .why-durban, .about, .cards, .content {
-        grid: none;
     }
 }
