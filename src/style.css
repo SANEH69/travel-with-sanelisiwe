@@ -2,6 +2,9 @@ body {
     background-color: #01446D;
     overflow-x: hidden;
 }
+* {
+    scroll-behavior: smooth;
+}
 .hero {
     background-image: linear-gradient(rgba(0, 0 , 0, 0.7), rgba(0, 0 , 0, 0.7)),  url("/images/durban.jpg");
     background-size: cover;
